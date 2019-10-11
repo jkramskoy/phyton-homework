@@ -3,7 +3,7 @@ print("Hello,this is a  a program that converts units. More specifically, kilome
 
 while (True):
     try:
-       number_of_kilometers = float(input("Please enter number of kilometers to convert it to miles"))
+        number_of_kilometers = float(input("Please enter number of kilometers to convert it to miles"))
     except ValueError:
         print("please enter valid number")
         break
@@ -11,10 +11,10 @@ while (True):
     print("It will be", miles, "miles")
     question = input("Do you want to do another conversion?Please use Y or N for your answer")
     if question == "Y":
-      continue
+        continue
     elif question == "N":
-     print("Goodbye")
-     break
+        print("Goodbye")
+        break
     else:
         print("Wrong selection")
 
