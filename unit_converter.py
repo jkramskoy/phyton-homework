@@ -17,6 +17,8 @@ while (True):
         break
     else:
         print("Wrong selection")
+        break
+
 
 
 
